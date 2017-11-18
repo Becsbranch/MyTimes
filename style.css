@@ -46,14 +46,14 @@ a {
 }
 #mother {
   font-size: 40px;
-  background-image: url("./resources/img-story-main.png");
+  background-image: url("../resources/img-story-main.png");
   font-family: Georgia;
   font-weight: bold;
   font-size: 40px;
   color: white;
 }
 #earth {
-  background-image: url("./resources/fall season.png");
+  background-image: url("../resources/fall season.png");
   height: 300px;
   width: 300px;
   font-family: Georgia;
@@ -62,7 +62,7 @@ a {
   color: white;
 }
 #cats {
-  background-image: url("./resources/cat ceo.png");
+  background-image: url("../resources/cat ceo.png");
   height: 300px;
   width: 300px;
   font-family: Georgia;
@@ -71,7 +71,7 @@ a {
   color: white;
 }
 #camera {
-  background-image: url("./resources/cameraman.png");
+  background-image: url("../resources/cameraman.png");
   height: 300px;
   width: 300px;
   font-family: Georgia;
@@ -104,7 +104,4 @@ p  {
 }
 h3 {
   font-size: 30px;
-}
-.item #burger {
-  max-width: 300px;
 }
