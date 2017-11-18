@@ -1,0 +1,110 @@
+.container {
+  display: flex;
+}
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-flex;
+}
+
+.logo {
+  display: flex;
+}
+.logo p {
+    color: aquamarine;
+}
+
+nav {
+justify-content: flex-end;
+}
+a {
+  padding: 4px;
+  color: black;
+}
+.content {
+  display: flex;
+}
+.column {
+  display: inline-flex;
+}
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+  flex-direction: column;
+}
+
+.item {
+  border: 1px solid black;
+}
+#mother {
+  font-size: 40px;
+  background-image: url("./resources/img-story-main.png");
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+#earth {
+  background-image: url("./resources/fall season.png");
+  height: 300px;
+  width: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+#cats {
+  background-image: url("./resources/cat ceo.png");
+  height: 300px;
+  width: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+#camera {
+  background-image: url("./resources/cameraman.png");
+  height: 300px;
+  width: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+ul {
+  background-color: whitesmoke;
+  font-family: Verdana;
+  font-size:12px;
+  color: dimgray;
+  list-style-type: none;
+}
+#newsbites h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+#newsbites {
+}
+li {
+  padding: 5px;
+  border-bottom: 1px solid black;
+}
+p  {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+h3 {
+  font-size: 30px;
+}
+.item #burger {
+  max-width: 300px;
+}
